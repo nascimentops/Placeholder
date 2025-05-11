@@ -1,0 +1,73 @@
+{
+  "dataset": [
+    {"input": "Oi", "target": "saudacao"},
+    {"input": "Olá", "target": "saudacao"},
+    {"input": "Bom dia", "target": "saudacao"},
+    {"input": "Boa tarde", "target": "saudacao"},
+    {"input": "Boa noite", "target": "saudacao"},
+    {"input": "E aí", "target": "saudacao"},
+    {"input": "Fala aí", "target": "saudacao"},
+    {"input": "Tudo certo?", "target": "saudacao"},
+    {"input": "Como vai?", "target": "saudacao"},
+
+    {"input": "Quem é você?", "target": "sobremim"},
+    {"input": "Você é real?", "target": "sobremim"},
+    {"input": "Qual é a sua função?", "target": "sobremim"},
+    {"input": "Você pensa?", "target": "sobremim"},
+    {"input": "Você tem sentimentos?", "target": "sobremim"},
+
+    {"input": "Tchau", "target": "despedida"},
+    {"input": "Até mais", "target": "despedida"},
+    {"input": "Falou", "target": "despedida"},
+    {"input": "Nos falamos depois", "target": "despedida"},
+    {"input": "Até logo", "target": "despedida"},
+
+    {"input": "Obrigado", "target": "agradecimento"},
+    {"input": "Valeu", "target": "agradecimento"},
+    {"input": "Muito obrigado", "target": "agradecimento"},
+    {"input": "Agradecido", "target": "agradecimento"},
+    {"input": "Gratidão", "target": "agradecimento"},
+
+    {"input": "Pode me ajudar?", "target": "ajuda"},
+    {"input": "Me explica isso", "target": "ajuda"},
+    {"input": "Estou confuso", "target": "ajuda"},
+    {"input": "Não entendi", "target": "ajuda"},
+    {"input": "Pode explicar melhor?", "target": "ajuda"},
+
+    {"input": "Me conta uma piada", "target": "piada"},
+    {"input": "Você sabe alguma piada?", "target": "piada"},
+    {"input": "Quero rir", "target": "piada"},
+    {"input": "Algo engraçado aí?", "target": "piada"},
+    {"input": "Manda uma piadinha", "target": "piada"},
+
+    {"input": "Você errou", "target": "reclamacao"},
+    {"input": "Isso não faz sentido", "target": "reclamacao"},
+    {"input": "Não gostei da resposta", "target": "reclamacao"},
+    {"input": "Você entendeu errado", "target": "reclamacao"},
+    {"input": "Essa resposta está confusa", "target": "reclamacao"},
+
+    {"input": "Estou triste", "target": "emocao"},
+    {"input": "Hoje estou feliz", "target": "emocao"},
+    {"input": "Não estou bem", "target": "emocao"},
+    {"input": "Estou animado", "target": "emocao"},
+    {"input": "Me sentindo sozinho", "target": "emocao"},
+
+    {"input": "Qual sua opinião sobre amor?", "target": "opiniao"},
+    {"input": "Você acredita em amizade?", "target": "opiniao"},
+    {"input": "O que pensa sobre solidão?", "target": "opiniao"},
+    {"input": "Você acredita em sorte?", "target": "opiniao"},
+    {"input": "O que é felicidade pra você?", "target": "opiniao"},
+
+    {"input": "Me conta uma curiosidade", "target": "curiosidade"},
+    {"input": "Você sabe algo interessante?", "target": "curiosidade"},
+    {"input": "Diz uma coisa legal", "target": "curiosidade"},
+    {"input": "Me surpreenda com algo", "target": "curiosidade"},
+    {"input": "Fala uma curiosidade aleatória", "target": "curiosidade"},
+
+    {"input": "Vamos conversar?", "target": "batepapo"},
+    {"input": "Não tenho nada pra fazer", "target": "batepapo"},
+    {"input": "Fala comigo", "target": "batepapo"},
+    {"input": "Quero conversar", "target": "batepapo"},
+    {"input": "Tá aí?", "target": "batepapo"}
+  ]
+}

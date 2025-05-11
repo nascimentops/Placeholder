@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 
+	dataset "github.com/nascimentops/multislices/internal/Dataset"
 	multislices "github.com/nascimentops/multislices/internal/MultiSlices"
 	stringconverter "github.com/nascimentops/multislices/internal/StringConverter"
 )
@@ -15,4 +16,9 @@ func main() {
 	fmt.Println(y)
 	fmt.Println(x)
 	fmt.Println(z)
+	v := dataset.DecodeJson([]byte(`[
+	{"Name": "Platypus", "Order": "Monotremata"},
+	{"Name": "Quoll",    "Order": "Dasyuromorphia"}
+]`))
+	fmt.Println(v)
 }
