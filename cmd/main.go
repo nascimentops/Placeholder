@@ -17,8 +17,8 @@ func main() {
 	fmt.Println(x)
 	fmt.Println(z)
 	v := dataset.DecodeJson([]byte(`[
-	{"Name": "Platypus", "Order": "Monotremata"},
-	{"Name": "Quoll",    "Order": "Dasyuromorphia"}
+	{"Input": "Platypus", "Target": "Monotremata"},
+	{"Input": "Quoll",    "Target": "Dasyuromorphia"}
 ]`))
 	fmt.Println(v)
 }
